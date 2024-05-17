@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/jquery-ui.min.css">
+    <link rel="stylesheet" href="styles/slick.css">
+    <link rel="stylesheet" href="styles/slick-theme.css">
+    <link rel="stylesheet" href="styles/animate.min.css">
+    <link rel="stylesheet" href="styles/style.min.css">
+    <title>Exotic Fruits</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Логотип">
+            </div>
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a href="#day" class="menu-link">Товар дня</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#why" class="menu-link">Почему мы</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#fruits" class="menu-link">Наши фрукты</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#how" class="menu-link">Как заказать</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#review" class="menu-link">Отзывы</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger"></div>
+        </div>
+    </header>
+
+    <main class="page">
+        <section class="main">
+            <div class="container">
+                <h1 class="main-title wow animate__backInLeft">Только свежие экзотические фрукты в нашем магазине</h1>
+                <div class="main-content wow animate__backInLeft">
+                    <p class="main-text">Вкусные и необычные фрукты, которые вы не найдете в магазине!</p>
+                    <a href="#fruits" class="btn btn-main btn-back-fill-anim"><span>Посмотреть фрукты</span></a>
+                </div>
+                <div class="main-image wow animate__backInRight">
+                    <img src="assets/images/main.png" alt="Ананас">
+                    <img src="assets/images/splash.png" alt="Брызг" class="splash">
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-image wow animate__backInLeft">
+                    <img src="assets/images/about.png" alt="Корзинка фруктов">
+                    <img src="assets/images/blob2.png" alt="Блоб" class="blob">
+                </div>
+                <div class="about-content">
+                    <h2 class="about-title wow animate__backInRight">О нас</h2>
+                    <p class="about-text wow animate__backInRight">Наш магазин поможет вам почувствовать вкус местных фруктов из различных уголков  нашей планеты. Благодаря <strong>5 летнему опыту работы на рынке</strong>, мы отлично наладили поставки самых лучших фруктов из самых далеких стран.</p>
+                    <p class="about-text wow animate__backInRight">Поэтому вы сможете насладиться ими через совсем небольшое время после оформления заказа. Также все фрукты проходят <strong>ручной отбор</strong>, поэтому на  своем столе вы увидите только качественные и свежие продукты.</p>
+                </div>
+            </div>
+        </section>
+        <section class="day" id="day">
+            <div class="container">
+                <h2 class="day-title wow animate__bounceInDown">Товар дня</h2>
+                <div class="day-wrapper">
+                    <div class="slider">
+                        <div class="slider-item">
+                            <img src="assets/images/slider-item-1-2x.png" alt="Манго 1">
+                        </div>
+                        <div class="slider-item">
+                            <img src="assets/images/slider-item-2-2x.png" alt="Манго 2">
+                        </div>
+                        <div class="slider-item">
+                            <img src="assets/images/slider-item-3-2x.png" alt="Манго 3">
+                        </div>
+                        <div class="slider-item">
+                            <img src="assets/images/slider-item-4.png" alt="Манго 4">
+                        </div>
+                        <div class="slider-item">
+                            <img src="assets/images/slider-item-5.png" alt="Манго 5">
+                        </div>
+                        <div class="slider-item">
+                            <img src="assets/images/slider-item-6.png" alt="Манго 6">
+                        </div>
+                    </div>
+                    <div class="main-img">
+                        <img src="assets/images/day.png" alt="Манго">
+                        <div class="discount">
+                            <span>-20%</span>
+                            <img src="assets/images/blob3.png" alt="blob">
+                        </div>
+                    </div>
+                    <div class="discount-time">
+                        <div class="left">До конца акции осталось:</div>
+                        <div class="time">
+                            <span>26</span>
+                            <p>часов</p>
+                        </div>
+                        <div class="time">
+                            <span>55</span>
+                            <p>минут</p>
+                        </div>
+                        <div class="time">
+                            <span>30</span>
+                            <p>секунд</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <h3 class="description-title">Манго</h3>
+                        <p class="description-text">Предлагаем попробовать спелый и сочный манго по супер цене прямо из солнечного и далекого Вьетнама.</p>
+                        <p class="description-price">Цена, кг: <span class="price-discount">65 руб.</span> <span class="price-actual">78 руб.</span></p>
+                        <button class="btn btn-description btn-back-fill-anim btn-popup-open"><span>Заказать</span></button>
+                        <p class="description-sells">
+                            <img src="assets/images/description.png" alt="Манго">
+                            <span>Сегодня этот манго купили уже <strong>25 раз</strong>!</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="why" id="why">
+            <div class="container">
+                <h2 class="why-title wow animate__jackInTheBox">Почему мы</h2>
+                <div class="items">
+                    <div class="item wow animate__zoomInLeft">
+                        <div class="item-image">
+                            <img src="assets/images/why1.png" alt="Палец вверх">
+                        </div>
+                        <p class="item-text">За 5 лет работы на рынке мы не получили ни одного негативного отзыва от наших клиентов</p>
+                    </div>
+                    <div class="item wow animate__zoomInUp">
+                        <div class="item-image">
+                            <img src="assets/images/why2.png" alt="Сертификат">
+                        </div>
+                        <p class="item-text">На все позиции есть
+                            сертификат, подтверждающий свежесть и безопасность закупаемых фруктов</p>
+                    </div>
+                    <div class="item wow animate__zoomInRight">
+                        <div class="item-image">
+                            <img src="assets/images/why3.png" alt="Фрукт">
+                        </div>
+                        <p class="item-text">Работаем с поставщиками из самых далеких стран, поэтому редкие фрукты вы сможете попробовать только у нас</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fruits" id="fruits">
+            <div class="container">
+                <h2 class="fruits-title wow animate__rollIn">Наши фрукты</h2>
+                <nav class="menu wow animate__flipInX">
+                    <ul class="menu-list">
+                        <li class="menu-item fruits-menu-item">
+                            <button class="btn btn-fruits btn-active" data-value="all">Все</button>
+                        </li>
+                        <li class="menu-item fruits-menu-item">
+                            <button class="btn btn-fruits" data-value="rare">Самые редкие</button>
+                        </li>
+                        <li class="menu-item fruits-menu-item">
+                            <button class="btn btn-fruits" data-value="promotion">Акции</button>
+                        </li>
+                        <li class="menu-item fruits-menu-item">
+                            <button class="btn btn-fruits" data-value="new">Новинки</button>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="items">
+                    <div class="item fruit-item wow animate__bounceInLeft" data-fruit-rare="false" data-fruit-promotion="true" data-fruit-new="false">
+                        <div class="item-image">
+                            <img src="assets/images/fruits1.png" alt="Манго">
+                        </div>
+                        <div class="item-content">
+                            <div class="item-title">Манго, Вьетнам</div>
+                            <p class="item-text">50 руб./кг</p>
+                            <button class="btn btn-item btn-back-fill-anim"><span>Заказать</span></button>
+                        </div>
+                    </div>
+                    <div class="item fruit-item wow animate__bounceInUp" data-fruit-rare="false" data-fruit-promotion="true" data-fruit-new="true">
+                        <div class="item-image">
+                            <img src="assets/images/fruits2.png" alt="Маракуйя">
+                        </div>
+                        <div class="item-content">
+                            <div class="item-title">Маракуйя, Таиланд</div>
+                            <p class="item-text">45 руб./кг</p>
+                            <button class="btn btn-item btn-back-fill-anim"><span>Заказать</span></button>
+                        </div>
+                    </div>
+                    <div class="item fruit-item wow animate__bounceInRight" data-fruit-rare="false" data-fruit-promotion="true" data-fruit-new="false">
+                        <div class="item-image">
+                            <img src="assets/images/fruits3.png" alt="Кокос">
+                        </div>
+                        <div class="item-content">
+                            <div class="item-title">Кокос, ЮАР</div>
+                            <p class="item-text">37 руб./кг</p>
+                            <button class="btn btn-item btn-back-fill-anim"><span>Заказать</span></button>
+                        </div>
+                    </div>
+                    <div class="item fruit-item wow animate__bounceInLeft" data-fruit-rare="true" data-fruit-promotion="false" data-fruit-new="true">
+                        <div class="item-image">
+                            <img src="assets/images/fruits4.png" alt="Питахайя">
+                        </div>
+                        <div class="item-content">
+                            <div class="item-title">Питахайя, Таиланд</div>
+                            <p class="item-text">61 руб./кг</p>
+                            <button class="btn btn-item btn-back-fill-anim"><span>Заказать</span></button>
+                        </div>
+                    </div>
+                    <div class="item fruit-item wow animate__bounceInUp" data-fruit-rare="false" data-fruit-promotion="false" data-fruit-new="false">
+                        <div class="item-image">
+                            <img src="assets/images/fruits5.png" alt="Ананас">
+                        </div>
+                        <div class="item-content">
+                            <div class="item-title">Ананас, Таиланд</div>
+                            <p class="item-text">48 руб./кг</p>
+                            <button class="btn btn-item btn-back-fill-anim"><span>Заказать</span></button>
+                        </div>
+                    </div>
+                    <div class="item fruit-item wow animate__bounceInRight" data-fruit-rare="true" data-fruit-promotion="false" data-fruit-new="true">
+                        <div class="item-image">
+                            <img src="assets/images/fruits6.png" alt="Папайя">
+                        </div>
+                        <div class="item-content">
+                            <div class="item-title">Папайя, Бразилия</div>
+                            <p class="item-text">57 руб./кг</p>
+                            <button class="btn btn-item btn-back-fill-anim"><span>Заказать</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="how" id="how">
+            <div class="container">
+                <h2 class="how-title wow animate__swing">Как заказать</h2>
+                <div class="how-image wow animate__fadeInUp">
+                    <img src="assets/images/how2x.png" alt="points" id="how-img">
+                </div>
+            </div>
+        </section>
+        <section class="review" id="review">
+            <div class="container">
+                <h2 class="review-title wow animate__jello">Отзывы</h2>
+                <div class="carousel wow animate__slideInUp">
+                    <div class="carousel-item">
+                        <div class="wrapper">
+                            <div class="carousel-item-header">
+                                <div class="carousel-item-image">
+                                    <img src="assets/images/review1.png" alt="Автора отзыва">
+                                </div>
+                                <div class="carousel-item-title">Анастасия</div>
+                            </div>
+                            <div class="carousel-item-content">
+                                <p class="carousel-item-text">Не первый раз делаю заказ в этом магазине, всегда остаюсь довольна качеством редкий фруктов, которые реально не встретишь в магазине.</p>
+                            </div>
+                            <img src="assets/images/blob4.png" alt="фон" class="carousel-background">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="wrapper">
+                            <div class="carousel-item-header">
+                                <div class="carousel-item-image">
+                                    <img src="assets/images/review2.png" alt="Автора отзыва">
+                                </div>
+                                <div class="carousel-item-title">Александр</div>
+                            </div>
+                            <div class="carousel-item-content">
+                                <p class="carousel-item-text">Отличный магазин, дети всегда радуются, когда приходит курьер с большим пакетом :) Спасибо магазину за вкусные и полезные фрукты!</p>
+                            </div>
+                            <img src="assets/images/blob4.png" alt="фон" class="carousel-background">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="wrapper">
+                            <div class="carousel-item-header">
+                                <div class="carousel-item-image">
+                                    <img src="assets/images/review3.png" alt="Автора отзыва">
+                                </div>
+                                <div class="carousel-item-title">Тимур</div>
+                            </div>
+                            <div class="carousel-item-content">
+                                <p class="carousel-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam laborum corporis itaque ipsam, tempora maxime.</p>
+                            </div>
+                            <img src="assets/images/blob4.png" alt="фон" class="carousel-background">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="wrapper">
+                            <div class="carousel-item-header">
+                                <div class="carousel-item-image">
+                                    <img src="assets/images/review4.png" alt="Автора отзыва">
+                                </div>
+                                <div class="carousel-item-title">Михаил</div>
+                            </div>
+                            <div class="carousel-item-content">
+                                <p class="carousel-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque amet saepe laboriosam facere dolorem ut omnis necessitatibus dolore? At, sed?</p>
+                            </div>
+                            <img src="assets/images/blob4.png" alt="фон" class="carousel-background">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="wrapper">
+                            <div class="carousel-item-header">
+                                <div class="carousel-item-image">
+                                    <img src="assets/images/review5.png" alt="Автора отзыва">
+                                </div>
+                                <div class="carousel-item-title">Иван</div>
+                            </div>
+                            <div class="carousel-item-content">
+                                <p class="carousel-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eum ea voluptates quia ipsa blanditiis deleniti nesciunt fugiat dolor a?</p>
+                            </div>
+                            <img src="assets/images/blob4.png" alt="фон" class="carousel-background">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="wrapper">
+                            <div class="carousel-item-header">
+                                <div class="carousel-item-image">
+                                    <img src="assets/images/review6.png" alt="Автора отзыва">
+                                </div>
+                                <div class="carousel-item-title">Виктория</div>
+                            </div>
+                            <div class="carousel-item-content">
+                                <p class="carousel-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam sed dignissimos earum est. Error nisi vero qui cum? Repellat.</p>
+                            </div>
+                            <img src="assets/images/blob4.png" alt="фон" class="carousel-background">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq">
+            <div class="container">
+                <h2 class="faq-title wow animate__rotateInUpLeft">Часто задаваемые вопросы</h2>
+                <div class="wow animate__bounceInUp" id="accordion">
+                    <h3>Сколько ждать доставку заказа после оформления?</h3>
+                    <div>
+                        <p>В случае наличия всех товаров из вашего заказа, он будет доставлен в течении 2 часов.</p>
+                    </div>
+                    <h3>Из каких стран доставляются фрукты?</h3>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fuga quasi ullam ut nihil libero eveniet laborum, amet cumque quis!</p>
+                    </div>
+                    <h3>Можно ли вернуть заказ, если качество мне не понравилось?</h3>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aperiam error ad ex tempore molestias voluptate vel consequatur qui aliquid?</p>
+                    </div>
+                    <h3>Сколько стоит доставка?</h3>
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat similique commodi velit perspiciatis libero, excepturi natus est blanditiis! Error, placeat!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <img src="assets/images/logo2.png" alt="Логотип">
+                </div>
+                <nav class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">
+                                <svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21.579 6.855c.14-.465 0-.806-.662-.806h-2.193c-.558 0-.813.295-.953.619 0 0-1.115 2.719-2.695 4.482-.51.513-.743.675-1.021.675-.139 0-.341-.162-.341-.627V6.855c0-.558-.161-.806-.626-.806H9.642c-.348 0-.558.258-.558.504 0 .528.79.65.871 2.138v3.228c0 .707-.127.836-.407.836-.743 0-2.551-2.729-3.624-5.853-.209-.607-.42-.852-.98-.852H2.752c-.627 0-.752.295-.752.619 0 .582.743 3.462 3.461 7.271 1.812 2.601 4.363 4.011 6.687 4.011 1.393 0 1.565-.313 1.565-.853v-1.966c0-.626.133-.752.574-.752.324 0 .882.164 2.183 1.417 1.486 1.486 1.732 2.153 2.567 2.153h2.192c.626 0 .939-.313.759-.931-.197-.615-.907-1.51-1.849-2.569-.512-.604-1.277-1.254-1.51-1.579-.325-.419-.231-.604 0-.976.001.001 2.672-3.761 2.95-5.04z"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <p class="copy">Все права защищены, 2020</p>
+        </div>
+    </footer>
+
+    <div class="upper">
+        <img src="assets/images/up.png" alt="Стрелка вверх">
+    </div>
+
+    <div class="popup">
+        <form class="popup-form">
+            <div class="popup-header">
+                <span class="popup-title">Форма заказа</span>
+                <span class="close"></span>
+            </div>
+
+            <input type="text" class="form-input" placeholder="Выберите товар" name="choice" required>
+            <div class="err">Необходимо заполнить поле</div>
+            <input type="text" class="form-input" placeholder="Введите имя" name="name" required>
+            <div class="err">Необходимо заполнить поле</div>
+            <input type="email" class="form-input" placeholder="ivanov@example.com" name="email" required>
+            <div class="err">Необходимо заполнить поле</div>
+            <input type="text" class="form-input" placeholder="+7 (999) 999-99-99" name="phone" required>
+            <div class="err">Необходимо заполнить поле</div>
+            <button class="btn btn-popup btn-back-fill-anim" type="button"><span>Отправить заявку</span></button>
+        </form>
+    </div>
+
+    <div class="message">
+        <div class="message-header">
+            <div class="message-title">Уведомление</div>
+            <div class="close"></div>
+        </div>
+        <p class="message-text"></p>
+    </div>
+
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/jquery-ui.min.js"></script>
+    <script src="scripts/slick.min.js"></script>
+    <script src="scripts/jquery.mask.min.js"></script>
+    <script src="scripts/wow.min.js"></script>
+    <script src="scripts/script-min.js"></script>
+</body>
+</html>
